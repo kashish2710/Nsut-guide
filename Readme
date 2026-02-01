@@ -1,1 +1,17 @@
 This is Nsut-guide
+This is the file structure
+nsut-guide/
+│── index.html     
+│── canteen.html
+│──lost and found.html
+│── internships.html
+│── map.html
+│── calendar.html
+│── societies.html
+│
+│── css/
+│   └── style.css
+│
+│── js/
+│   └── main.js
+
