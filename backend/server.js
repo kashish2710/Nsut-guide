@@ -32,6 +32,16 @@ app.get("/lostfound2", (req, res) => {
   res.sendFile(path.join(__dirname, "frontend", "lostfound2.html"));
 });
 
+// ✅ INTERNSHIP PAGE ADD THIS
+app.get("/internships", (req, res) => {
+  res.sendFile(path.join(__dirname, "frontend", "internships.html"));
+});
+
+// DETAILS
+app.get("/internship-details",(req,res)=>{
+res.sendFile(path.join(__dirname,"frontend","internship-details.html"));
+});
+
 app.listen(4000, () => {
   console.log("Server running on port 4000");
 });
