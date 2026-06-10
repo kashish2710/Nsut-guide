@@ -6,16 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="css/login.css">
 
 </head>
 
-<body>
+<body style="background-color: #e2e2e2 ;">
 
 <div class="main-container" id="container">
 
     <div class="image-side">
+        
         <div class="image-text">
+            
             NSUT<br>
             Green Campus, Bright Future
         </div>
@@ -35,7 +37,7 @@
                 <input class="full" type="password" placeholder="Password">
             </div>
 
-            <button class="btn">Create account</button>
+            <button class="btn" onclick="loginRedirect()">Create account</button>
 
             <div class="divider">
                 <span></span> Or register with <span></span>
@@ -57,7 +59,7 @@
                 <input class="full" type="password" placeholder="Password">
             </div>
 
-            <button class="btn">Log in</button>
+            <button class="btn" onclick="loginRedirect()">Log in</button>
 
             <div class="divider">
                 <span></span> Or login with <span></span>
@@ -72,6 +74,6 @@
     </div>
 </div>
 
-<script src="login.js"></script>
+<script src="/js/login.js"></script>
 </body>
 </html>
